@@ -1,5 +1,4 @@
-# professional
-Js practice project - 
+# Js practice project
   • AJAX XMLHttpRequest Object (index.html)
   • Custom greeting with prompt input (index.html)
   • Custom greeting based on time of the day (kontakt.html)
