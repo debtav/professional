@@ -1,0 +1,34 @@
+#targetImg {
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+#adPic {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out;
+
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}

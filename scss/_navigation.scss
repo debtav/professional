@@ -1,0 +1,33 @@
+header #logo {
+  text-align: center;
+  font-family: $alt-font;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+  padding-block: 1.5em;
+}
+
+nav {
+  margin-bottom: 2em;
+  ul {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    li {
+      line-height: 3;
+    }
+  }
+}
+.nav-item .current-page {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 0.1em;
+  text-decoration-skip-ink: none;
+}
+
+.navbar-toggler {
+  color: $secondary-color;
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+}

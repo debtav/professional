@@ -1,0 +1,39 @@
+  .container, body{
+    text-align: center;
+  }
+  
+  main {
+    margin-top: 5em;
+  }
+
+#main-page-content {
+  border: solid 0.1em $secondary-color;
+  padding: 1em;
+  margin-bottom: 5em;
+}
+
+.selection-icon {
+  padding: 0.5em;
+  background-color: $accent-color;
+  text-decoration: none;
+  font-family: $alt-font;
+  color: $secondary-color;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $accent-color;
+    transition: ease 1s;
+  }
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+#targetText{
+  margin-block: 3em;
+}
