@@ -1,16 +1,16 @@
 // --------------- CUSTOM GREETING ---------------
-// ----- !!!!! ----- TRANSFORM userName FRIST LETTER TO UPPERCASE
-// ----- !!!!! ----- SAVE USER NAME OR SET DEFAULT "BESUCHER"
+// ----- !!!!! ----- SAVE USER NAME OR SET DEFAULT "BESUCHER" https://stackoverflow.com/questions/3262605/how-to-check-whether-a-storage-item-is-set
 
-// anonymous self-invoking (IIFE) function
-
+// // anonymous self-invoking (IIFE) function
 (function () {
   userName = prompt("Wen dürfen wir bei Professional Website begrüssen?");
   if (userName) {
+    // set first letter to uppercase
+    userNameParsed = userName.charAt(0).toUpperCase() + userName.slice(1);
     document.querySelector("#greeting").innerHTML =
       "<p>Herzlich Willkommen " +
       "<em>" +
-      userName +
+      userNameParsed +
       "</em>" +
       ", wir begrüssen Sie bei Professional Website!</p>";
   } else {
@@ -18,6 +18,7 @@
       "<p>Herzlich Willkommen Besucher, wir begrüssen Sie bei Professional Website!</p>";
   }
 })();
+
 
 // --------------- USER'S VIEWPORT WIDTH  ---------------
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
