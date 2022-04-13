@@ -35,8 +35,3 @@ emailSpam("team1");
 emailSpam("team2");
 emailSpam("team3");
 emailSpam("team4");
-
-
-// --------------- EXTRA ---------------
-// lightbox gallery
-// https://lokeshdhakar.com/projects/lightbox2/
