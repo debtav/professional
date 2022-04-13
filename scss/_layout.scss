@@ -37,3 +37,10 @@ img{
 #targetText{
   margin-block: 3em;
 }
+#email-container{
+  padding-block: 5em;
+  a {
+    display: block;
+    padding-block: 0.5em;
+  }
+}

@@ -19,7 +19,6 @@
   }
 })();
 
-
 // --------------- USER'S VIEWPORT WIDTH  ---------------
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth
